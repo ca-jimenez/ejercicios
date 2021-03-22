@@ -46,7 +46,7 @@ public class Libro {
     }
 
     @Override
-    public String tostring() {
+    public String toString() {
 
         return this.title + ", ISBN: " + this.isbn + ", author: " + author;
     }
