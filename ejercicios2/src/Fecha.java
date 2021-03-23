@@ -3,7 +3,7 @@ import java.util.GregorianCalendar;
 
 public class Fecha {
 
-    GregorianCalendar date;
+    private GregorianCalendar date;
 
     public Fecha(int day, int month, int year) {
 

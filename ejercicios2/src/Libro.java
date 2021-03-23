@@ -1,8 +1,8 @@
 public class Libro {
 
-    String title;
-    String isbn;
-    String author;
+    private String title;
+    private String isbn;
+    private String author;
 
     public Libro(String title, String isbn, String author) {
         this.title = title;
