@@ -1,6 +1,6 @@
 public class Contador {
 
-    int value;
+    private int value;
 
     public Contador(int value) {
         this.value = value;
