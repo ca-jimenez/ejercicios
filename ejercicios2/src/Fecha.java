@@ -22,6 +22,7 @@ public class Fecha {
         return date.getTime();
     }
 
+    @Override
     public String toString() {
         int day = date.get(GregorianCalendar.DAY_OF_MONTH);
         int month = date.get(GregorianCalendar.MONTH) + 1;
