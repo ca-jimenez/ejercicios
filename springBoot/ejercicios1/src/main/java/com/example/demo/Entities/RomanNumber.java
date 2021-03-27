@@ -12,7 +12,7 @@ public class RomanNumber {
 
     private Integer numero;
     private String romanRespresentation;
-    private final static TreeMap<Integer, String> map = new TreeMap<Integer, String>();
+    private final static TreeMap<Integer, String> map = new TreeMap<>();
 
     public RomanNumber(Integer numero) {
         this.numero = numero;
