@@ -22,13 +22,12 @@ public class Main {
         invitados.add(invitado5);
         invitados.add(invitado6);
 
-        Firework fwk1 = new Firework("petardo");
-        Firework fwk2 = new Firework("bengala");
-        Firework fwk3 = new Firework("caña voladora");
-        Firework fwk4 = new Firework("bateria");
+        FireworkIndividual fwk1 = new FireworkIndividual("petardo");
+        FireworkIndividual fwk2 = new FireworkIndividual("bengala");
+        FireworkIndividual fwk3 = new FireworkIndividual("caña voladora");
+        FireworkIndividual fwk4 = new FireworkIndividual("bateria");
 
-//        ArrayList<Firework> fArtificiales = new ArrayList<>();
-        ArrayList<Explosive> fArtificiales = new ArrayList<>();
+        ArrayList<Firework> fArtificiales = new ArrayList<>();
 
         fArtificiales.add(fwk1);
         fArtificiales.add(fwk2);
@@ -50,11 +49,9 @@ public class Main {
 
         Evento evento = new Evento(invitados, fArtificiales);
 
-//        ArrayList<Firework> fuegos = evento.getFireworks();
-        ArrayList<Explosive> fuegos = evento.getFireworks();
+        ArrayList<Firework> fuegos = evento.getFireworks();
 
-//        for (Firework fuego: fuegos) {
-        for (Explosive fuego: fuegos) {
+        for (Firework fuego: fuegos) {
 
             System.out.println(fuego);
         }

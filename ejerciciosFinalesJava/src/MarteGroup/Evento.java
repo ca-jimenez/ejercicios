@@ -5,13 +5,10 @@ import java.util.ArrayList;
 public class Evento {
 
     private ArrayList<Invitado> guests;
-
-    //    private ArrayList<Firework> fireworks;
-    private ArrayList<Explosive> fireworks;
+    private ArrayList<Firework> fireworks;
 
 
-    //    public Evento(ArrayList<Invitado> guests, ArrayList<Firework> fireworks) {
-    public Evento(ArrayList<Invitado> guests, ArrayList<Explosive> fireworks) {
+    public Evento(ArrayList<Invitado> guests, ArrayList<Firework> fireworks) {
         this.guests = guests;
         this.fireworks = fireworks;
     }
@@ -29,20 +26,11 @@ public class Evento {
         this.guests = guests;
     }
 
-
-//    public ArrayList<Firework> getFireworks() {
-//        return fireworks;
-//    }
-//
-//    public void setFireworks(ArrayList<Firework> fireworks) {
-//        this.fireworks = fireworks;
-//    }
-
-    public ArrayList<Explosive> getFireworks() {
+    public ArrayList<Firework> getFireworks() {
         return fireworks;
     }
 
-    public void setFireworks(ArrayList<Explosive> fireworks) {
+    public void setFireworks(ArrayList<Firework> fireworks) {
         this.fireworks = fireworks;
     }
 
@@ -55,24 +43,14 @@ public class Evento {
         }
     }
 
-    //    public void lightFireworks() {
-//
-//        for (Firework fw : fireworks) {
-//            fw.explode();
-//        }
-//    }
     public void lightFireworks() {
 
-        for (Explosive fw : fireworks) {
+        for (Firework fw : fireworks) {
             fw.explode();
         }
     }
 
-    //    public void addFirework(Firework firework) {
-//        fireworks.add(firework);
-//        System.out.println("Fuego artificial añadido");
-//    }
-    public void addFirework(Explosive firework) {
+    public void addFirework(Firework firework) {
         fireworks.add(firework);
         System.out.println("Fuego artificial añadido");
     }

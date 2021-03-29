@@ -1,6 +1,6 @@
 package MarteGroup;
 
-public class Firework extends Explosive {
+public abstract class Firework {
 
     private String name;
 
@@ -12,10 +12,9 @@ public class Firework extends Explosive {
     public Firework() {
     }
 
-//    public void explode() {
-//        System.out.println("Blam!");
-//    }
-
+    public void explode() {
+        System.out.println("Blam!");
+    }
 
     public String getName() {
         return name;
@@ -23,10 +22,5 @@ public class Firework extends Explosive {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    @Override
-    public String toString() {
-        return name;
     }
 }
