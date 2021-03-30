@@ -1,8 +1,8 @@
-package com.example.demo.Controller;
+package com.example.demo.controllers;
 
-import com.example.demo.DTOs.CasaDTO;
-import com.example.demo.DTOs.DetalleCasaDTO;
-import com.example.demo.Services.CasaService;
+import com.example.demo.dtos.CasaDTO;
+import com.example.demo.dtos.DetalleCasaDTO;
+import com.example.demo.services.CasaService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

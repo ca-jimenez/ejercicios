@@ -1,8 +1,8 @@
-package com.example.demo.Services;
+package com.example.demo.services;
 
-import com.example.demo.DTOs.EstudianteDTO;
-import com.example.demo.DTOs.SimpsonDTO;
-import com.example.demo.DTOs.PotterDTO;
+import com.example.demo.dtos.EstudianteDTO;
+import com.example.demo.dtos.SimpsonDTO;
+import com.example.demo.dtos.PotterDTO;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 

@@ -1,9 +1,9 @@
-package com.example.demo.Services;
+package com.example.demo.services;
 
 
-import com.example.demo.DTOs.CasaDTO;
-import com.example.demo.DTOs.DetalleCasaDTO;
-import com.example.demo.DTOs.HabitacionDTO;
+import com.example.demo.dtos.CasaDTO;
+import com.example.demo.dtos.DetalleCasaDTO;
+import com.example.demo.dtos.HabitacionDTO;
 
 import java.util.HashMap;
 import java.util.Map;

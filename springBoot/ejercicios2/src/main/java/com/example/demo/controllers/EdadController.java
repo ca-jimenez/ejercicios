@@ -1,6 +1,6 @@
-package com.example.demo.Controller;
+package com.example.demo.controllers;
 
-import com.example.demo.Services.EdadService;
+import com.example.demo.services.EdadService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

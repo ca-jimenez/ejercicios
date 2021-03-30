@@ -1,8 +1,8 @@
-package com.example.demo.Services;
+package com.example.demo.services;
 
-import com.example.demo.DTOs.AlumnoDTO;
-import com.example.demo.DTOs.AsignaturaDTO;
-import com.example.demo.DTOs.DiplomaDTO;
+import com.example.demo.dtos.AlumnoDTO;
+import com.example.demo.dtos.AsignaturaDTO;
+import com.example.demo.dtos.DiplomaDTO;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
-package com.example.demo.Controller;
+package com.example.demo.controllers;
 
-import com.example.demo.DTOs.PotterDTO;
-import com.example.demo.DTOs.SimpsonDTO;
-import com.example.demo.Services.PostmanService;
+import com.example.demo.dtos.PotterDTO;
+import com.example.demo.dtos.SimpsonDTO;
+import com.example.demo.services.PostmanService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
