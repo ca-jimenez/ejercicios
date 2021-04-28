@@ -1,5 +1,6 @@
 package com.example.muelitas.services;
 
+import com.example.muelitas.entities.Paciente;
 import com.example.muelitas.repositories.PacienteRepository;
 import org.springframework.stereotype.Service;
 
@@ -13,6 +14,8 @@ public class PacienteServiceImpl implements PacienteService {
     }
 
 
+    @Override
+    public void savePaciente(Paciente paciente) {
 
-
+    }
 }
